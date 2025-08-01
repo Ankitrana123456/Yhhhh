@@ -2,9 +2,9 @@ from pyrogram import Client, filters
 import os
 import re
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("22182189"))
+API_HASH = os.getenv("5e7c4088f8e23d0ab61e29ae11960bf5")
+BOT_TOKEN = os.getenv("7192614101:AAFUo1ostxyYRNFWm_zkxMpT-AlIkXdiIoI")
 
 bot = Client("sh_to_txt_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
